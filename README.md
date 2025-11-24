@@ -1,6 +1,6 @@
-# Fair Prompt Framework for Implicit Hate Detection
+# When to Invoke: Refining LLM Fairness with Toxicity Assessment
 
-This repository contains the implementation and experimental code for fair prompt framework in implicit hate speech detection systems.
+This repository contains the implementation and experimental code for FairToT framework in implicit hate speech detection systems.
 
 ## Repository Structure
 
