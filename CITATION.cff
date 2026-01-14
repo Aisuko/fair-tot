@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper."
+title: "When to Trust: A Causality-Aware Calibration Framework for Accurate Knowledge Graph Retrieval-Augmented Generation"
+type: software
+repository-code: "https://github.com/Aisuko/fair-tot"
+authors:
+  - family-names: Ren
+    given-names: Jing
+  - family-names: Li
+    given-names: Bowen
+  - family-names: Xu
+    given-names: Ziqi
+  - family-names: Luo
+    given-names: Renqiang
+  - family-names: Yu
+    given-names: Shuo
+  - family-names: Ye
+    given-names: Xin
+  - family-names: Fayek
+    given-names: Haytham
+  - family-names: Li
+    given-names: Xiaodong
+  - family-names: Xia
+    given-names: Feng
+date-released: 2026-01-01
