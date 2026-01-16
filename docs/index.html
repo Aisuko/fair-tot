@@ -93,7 +93,7 @@
     }
 
     .hero {
-      padding: 140px 0 80px;
+      padding: 140px 0 48px;
       position: relative;
       overflow: hidden;
     }
@@ -264,6 +264,7 @@
       background: rgba(255, 255, 255, 0.7);
       border: 1px solid rgba(148, 163, 184, 0.3);
       text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
 
     .stat-value {
@@ -271,8 +272,17 @@
       font-weight: 700;
     }
 
+    .stat-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 30px rgba(15, 23, 42, 0.12);
+    }
+
     section {
       padding: 72px 0;
+    }
+
+    #contributions {
+      padding-top: 32px;
     }
 
     .section-title {
@@ -479,7 +489,7 @@
         <a href="#authors">Authors</a>
       </nav>
       <div class="hero-actions" style="margin: 0;">
-        <a class="btn btn-secondary" href="#" aria-disabled="true">Paper (soon)</a>
+        <a class="btn btn-secondary" href="https://arxiv.org/abs/2601.09250" target="_blank" rel="noreferrer">Paper</a>
         <a class="btn btn-secondary" href="https://aisuko.github.io/ca2kg/" target="_blank" rel="noreferrer">CA2KG Paper</a>
         <a class="btn btn-secondary" href="https://aisuko.github.io/acps/" target="_blank" rel="noreferrer">ACPS Paper</a>
         <a class="btn btn-primary" href="https://github.com/Aisuko/fair-tot" target="_blank" rel="noreferrer">GitHub</a>
@@ -505,7 +515,7 @@
             prompt-guided toxicity assessment and interpretable indicators.
           </p>
           <div class="hero-actions">
-            <a class="btn btn-secondary" href="#" aria-disabled="true">Paper (soon)</a>
+            <a class="btn btn-secondary" href="https://arxiv.org/abs/2601.09250" target="_blank" rel="noreferrer">Paper</a>
             <a class="btn btn-secondary" href="https://aisuko.github.io/ca2kg/" target="_blank" rel="noreferrer">CA2KG Paper</a>
             <a class="btn btn-secondary" href="https://aisuko.github.io/acps/" target="_blank" rel="noreferrer">ACPS Paper</a>
             <a class="btn btn-primary" href="https://github.com/Aisuko/fair-tot" target="_blank" rel="noreferrer">GitHub</a>
